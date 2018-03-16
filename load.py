@@ -5,6 +5,7 @@ import ttk
 import requests
 
 this = sys.modules[__name__]
+this.msg = " "
 
 def plugin_start():
     	print ('CGPlugin Starting')
@@ -13,18 +14,10 @@ def plugin_start():
 def plugin_end():
     print('Closing')
 
-def plugin_app(parent):
-   """
-   Create a pair of TK widgets for the EDMC main window to display messages
-   """
-   label = tk.Label(parent, text="CG Status:")
-   this.status = tk.Label(parent, anchor=tk.W, text="Waiting for CG Data")
-   return (label, this.status)
 
 def journal_entry(cmdr, is_beta, system, station, entry, state):
 	#print ('Starting Journal')
 	if entry['event'] == 'CommunityGoal':
-		this.status["text"] = 'CG Updating'
 		#print ('CG updating')		
 		for goal in entry['CurrentGoals']:
 	
@@ -54,11 +47,14 @@ def journal_entry(cmdr, is_beta, system, station, entry, state):
 				"""
   			 	Request URl as a POST with the Form URL plus send the Form Data to each entry.
  				"""
-				r = requests.post(url, data=form_data)
-    				if r.status_code == 200:
-        				#print ('URL Success')
-					this.status['text'] = "Successful post to CG Calculator"
-    				else:
-					print ('URL Fail' + str(r.status_code))
-					this.status['text'] = "Failed to Update: " + str(r.status_code)
-
+				try:				
+					r = requests.post(url, data=form_data)
+    					if r.status_code == 200:
+        					#print ('URL Success')
+						this.msg = 'CG Post Success'
+    					else:
+						print ('URL Fail' + str(r.status_code))
+						this.msg = 'CG Post Failed'
+				except:
+					this.msg = 'CG Post Exception'
+	return (this.msg)
