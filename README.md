@@ -11,8 +11,9 @@ Follow the instructions below and if there are any issues contact Peter_Provart 
 2. 
 Download this plugin:  
 ![plugin download](https://i.imgur.com/Cn1Y93D.png)  
-3. 
-Open Elite Dangerous Market Connector and go to File -> Settings. Then browse to the plugins tab:  
+3. Open Elite Dangerous Market Connector and go to File -> Settings. Then browse to the plugins tab:
+
+
 ![file directory](https://i.gyazo.com/7c4f8bb35ae0c3b9e866d4969e758395.png)  
 4. Click "Open" to open the plugins directory.
 
