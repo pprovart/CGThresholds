@@ -32,7 +32,8 @@ Follow the instructions below and if there are any issues contact Peter_Provart 
 
 ## Credits
 Firstly Co-authored with Fin Whelan.
-Tested by a few of the Hutton Truckers #forthmug , many thanks to that group for their input and support.
+Thanks to CMDR Flossy and CMDR Kietrax for testing!
+Many thanks to  the Hutton Truckers #forthmug, for their input and support.
 
 ## Need More Help or got Ideas?
 Any suggestions , bugs or help then please contact me on Discord as per above links.
