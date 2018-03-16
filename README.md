@@ -1,7 +1,7 @@
 # CGThresholds
 ![PluginShot](https://i.imgur.com/gXcIKBZ.png)
 
-A plugin for [Elite Dangerous Market Connector](https://github.com/Marginal/EDMarketConnector) that transmits anonymous data to [CGThresholdCalculator](https://sites.google.com/site/cgtthreshcalc/home) to calculatore the Boundary for the Tiers, so you can know if you just need to make 'One more run' to get that extra reward!
+A plugin for [Elite Dangerous Market Connector](https://github.com/Marginal/EDMarketConnector) that transmits anonymous data to [CGThresholdCalculator](https://sites.google.com/site/cgtthreshcalc/home) to calculate the Boundary for the Reward Tiers, so you can know if you just need to make 'One more run' to get those extra Creds!
 
 ![THresholdExample](https://i.imgur.com/8qdmP47.jpg)
 Follow the instructions below and if there are any issues contact Peter_Provart on the following [Discord](https://discord.gg/7kbduxb)!  
