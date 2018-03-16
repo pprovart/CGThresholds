@@ -1,8 +1,9 @@
 # CGThresholds
 ![PluginShot](https://i.imgur.com/gXcIKBZ.png)
 
-A plugin for [Elite Dangerous Market Connector](https://github.com/Marginal/EDMarketConnector) that transmits data to [CGThresholdCalculator](https://sites.google.com/site/cgtthreshcalc/home)! 
-![THresholdExample]([https://i.imgur.com/8qdmP47.jpg)
+A plugin for [Elite Dangerous Market Connector](https://github.com/Marginal/EDMarketConnector) that transmits data to [CGThresholdCalculator](https://sites.google.com/site/cgtthreshcalc/home) 
+
+![THresholdExample](https://i.imgur.com/8qdmP47.jpg)
 Follow the instructions below and if there are any issues contact Peter_Provart on the following [Discord](https://discord.gg/7kbduxb)!  
 ## How to install:  
 1. [Install EDMC by following the instructions]( https://github.com/Marginal/EDMarketConnector )  
