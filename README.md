@@ -1,7 +1,7 @@
 # CGThresholds
 ![PluginShot](https://i.imgur.com/gXcIKBZ.png)
 
-A plugin for [Elite Dangerous Market Connector](https://github.com/Marginal/EDMarketConnector) that transmits data to [CGThresholdCalculator](https://sites.google.com/site/cgtthreshcalc/home) 
+A plugin for [Elite Dangerous Market Connector](https://github.com/Marginal/EDMarketConnector) that transmits anonymous data to [CGThresholdCalculator](https://sites.google.com/site/cgtthreshcalc/home) to calculatore the Boundary for the Tiers, so you can know if you just need to make 'One more run' to get that extra reward!
 
 ![THresholdExample](https://i.imgur.com/8qdmP47.jpg)
 Follow the instructions below and if there are any issues contact Peter_Provart on the following [Discord](https://discord.gg/7kbduxb)!  
@@ -14,4 +14,13 @@ Follow the instructions below and if there are any issues contact Peter_Provart 
 4. Click "Open" to open the plugins directory.  
 5. Open the Zip file we have downloaded and drag the folder from within into the plugins directory:  
 ![install](https://i.imgur.com/OVKG2BU.png)  
-6. Restart Elite Dangerous Market Connector
+6. Restart Elite Dangerous Market Connector the CGStatus will say Waiting Until CG Data is sent.
+7. If CG Status stays at Success the data has been sent to the calculator!
+8. Thanks for your data.
+
+## Credits
+Firstly Co-authored with Fin Whelan.
+Tested by a few of the Hutton Truckers #forthmug , many thanks to that group for their input and support.
+
+## Need More Help or got Ideas?
+Any suggestions , bugs or help then please contact me on Discord as per above links.
