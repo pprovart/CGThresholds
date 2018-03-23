@@ -26,8 +26,8 @@ Follow the instructions below and if there are any issues contact Peter_Provart 
 ![install](https://i.imgur.com/OVKG2BU.png) 
 
 
-6. Restart Elite Dangerous Market Connector; the CGStatus will say Waiting. Until CG Data is sent.
-7. If CG Status stays at Success the data has been sent to the calculator!
+6. Restart Elite Dangerous Market Connector.
+7. If CG Status at the bottom stays at Success the data has been sent to the calculator!
 8. Thanks for your data.
 
 ## Credits
